@@ -1,0 +1,53 @@
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Mentales Visualisieren</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+  <link rel="stylesheet" href="style.css">
+
+  <script src="screenshot.js"></script>
+</head>
+<body>
+
+ <div class="image" id="mentalImage">
+     <img id="img" src="images/beli_auge_test.jpg" crossorigin="anonymous">
+     </div>
+
+ <div class="navigation">
+
+ <div class="intro">
+     <p>Think of an eye. Do you form a mental image? <br> Use the sliders below to adjust the picture, trying to resemble the quality of the image in your head as closely as possible.</p>
+     </div>
+
+ <div class="singleSlider">
+     <div class="val" id="blur">0px</div>
+     <input class="slider" id="slider1" type="range" min="0" max="20" value="0">
+     <label for="slider1">blurriness</label>
+     </div>
+
+<div class="singleSlider">
+     <div class="val" id="saturate">100%</div>
+     <input class="slider" id="slider2" type="range" min="0" max="200" value="100">
+     <label for="slider2">saturation</label>
+     </div>
+
+ <div class="singleSlider">
+     <div class="val" id="contrast">100%</div>
+     <input class="slider" id="slider3" type="range" min="0" max="200" value="100">
+     <label for="slider3">contrast</label>
+     </div>
+       
+ <div class="singleSlider">
+     <div class="val" id="brightness">100%</div>
+     <input class="slider" id="slider4" type="range" min="0" max="100" value="100">
+     <label for="slider4">opacity</label>
+     </div>
+
+ <button type="button" class="button" id="download">save your mental image</button>    
+
+
+<script src="function.js"></script>
+ 
+</body>
+</html>
