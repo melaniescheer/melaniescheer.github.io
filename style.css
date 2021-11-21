@@ -25,6 +25,7 @@ img {
  overflow: hidden;
 }
 
+/* Textspalte */
 .navigation {
  position: absolute;
  float: left;
@@ -35,9 +36,9 @@ img {
 
 .intro {  
  width: 15vw;
- font-family: "MAZIUSREVIEW20.09-Extraitalic";
- letter-spacing: 0.75;
- line-height: 1.25;
+ font-family: "MAZIUSREVIEW20.09";
+ letter-spacing: 0.75pt;
+ line-height: 1.3;
 }
 
 .singleSlider {
@@ -54,8 +55,8 @@ img {
 
 label {
  position: relative;
- font-family: "MAZIUSREVIEW20.09-Extraitalic";
- letter-spacing: 0.75;
+ font-family: "MAZIUSREVIEW20.09";
+ letter-spacing: 0.75pt;
 }
 
 .val {
@@ -82,7 +83,7 @@ input[type="range"]::-webkit-slider-runnable-track {
  height: 2px;
  cursor: pointer;
  background: white;
- margin-top: 10px;
+ margin-top: 25px;
 }
 
 input[type="range"]::-webkit-slider-thumb {
@@ -137,9 +138,9 @@ input[type="range"]::-ms-thumb {
  top: 15vh; 
  height: 50px; 
  width: 200px;   
- font-family: "MAZIUSREVIEW20.09-Extraitalic";
- font-size: 16;
- letter-spacing: 0.75;
+ font-family: "MAZIUSREVIEW20.09";
+ font-size: 12pt;
+ letter-spacing: 0.75pt;
  vertical-align: middle;
  color: white;    
  background-color: black;

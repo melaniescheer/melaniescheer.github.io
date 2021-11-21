@@ -1,7 +1,8 @@
 @font-face {
     font-family: "MAZIUSREVIEW20.09";
-    font-weight: 100;
+    font-weight: normal;
     font-style: normal;
+    font-size: 13pt;
     src: url("/fonts/MAZIUSREVIEW20.09-Extraitalic.woff2") format("woff2");
     src: url("/fonts/MAZIUSREVIEW20.09-Extraitalic.woff") format("woff");
   };
